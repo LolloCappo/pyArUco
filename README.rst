@@ -5,7 +5,8 @@ ArUco marker-based displacement measurement Python module
 Perform displacement measurement using ArUco phisical markers captured with a still camera
 
 
-Installing this package
+Using this package
+-----------------------
 -----------------------
 
 Download the repository
