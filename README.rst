@@ -1,5 +1,6 @@
 ArUco marker-based displacement measurement approach
 ----------------------------------------------------
+.. image:: Data/Images/aruco.png
 
 Perform displacement measurement using ArUco phisical markers captured with a still camera
 
