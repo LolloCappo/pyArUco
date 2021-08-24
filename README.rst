@@ -42,7 +42,7 @@ Here is a simple example on how to use the code:
     
 
 
-Reference:
+References:
 
 Garrido-Jurado et al., Pattern Recognition 2016; Generation of fiducial marker dictionaries using Mixed Integer Linear Programming.
 
