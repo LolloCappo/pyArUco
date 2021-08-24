@@ -1,1 +1,10 @@
 numpy>=1.16
+cv2
+tkinter
+tqdm
+matplotlib
+celluloid
+pyfiglet
+PIL
+time
+warnings
