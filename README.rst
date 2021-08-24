@@ -7,11 +7,7 @@ Perform displacement measurement using ArUco phisical markers captured with a st
 Installing this package
 -----------------------
 
-Use `pip` to install it by:
-
-.. code-block:: console
-
-    $ pip install pyArUco
+Download the repository
 
 
 Simple examples
