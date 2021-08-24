@@ -319,12 +319,12 @@ def spatial_calibration(mrk_length, mrks_pos, ID):
 
     return relative_disp_mm, global_center_px, len_pixel_max
 
-
-# Ricostruisco lo spostamento nel caso in cui non viene captato.
-# Se in un frame ho perso il trackig la posizione del punto viene
-# ricostruita tramite media delle posizioni dei frame precedente e 
-# successivo.
 def _reconstrution(d):
+    '''
+    Displacement reconstruction using boundary points when the position of the marker is not detected in a frame
+
+    '''
+
     for i in range(0,d.shape[0]-1):
         if d[i] == 0:
             if i == 0:
