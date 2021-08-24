@@ -1,4 +1,4 @@
-ArUco marker-based displacement measurement approach
+ArUco marker-based displacement measurement Python module
 ----------------------------------------------------
 .. image:: Data/Images/aruco.png
 
