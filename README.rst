@@ -48,6 +48,6 @@ Garrido-Jurado et al., Pattern Recognition 2016; Generation of fiducial marker d
 
 https://www.sciencedirect.com/science/article/pii/S0031320315003544
 
- Tocci et al., IOP 2021; ArUco marker-based displacement measurement technique: uncertainty analysis.
+Tocci et al., IOP 2021; ArUco marker-based displacement measurement technique: uncertainty analysis.
 
 https://iopscience.iop.org/article/10.1088/2631-8695/ac1fc7/meta
