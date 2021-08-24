@@ -7,7 +7,6 @@ Perform displacement measurement using ArUco phisical markers captured with a st
 
 Using this package
 -----------------------
------------------------
 
 Download the repository
 
