@@ -24,20 +24,22 @@ Here is a simple example on how to use the code:
 	from pyArUco import *
 
 	os.system('cls')
-
-	path = file_explorer() # Path of the video to analyze
-	video, fps = load_video(path) # Obtain matrix and frame rate information
-	mrks_pos, sample_frame, id_detected = arUCO_video_detection(video, adv_param=True, binarization=True, thresh=120, dilate=True) # Detection parameters
-
-	ID = 1 # Marker ID to look for in the analyzed video
-        dim_mm = 15 # Marker phisical length [mm]
-
-	relative_disp_mm, global_center_px, len_pixel = spatial_calibration(dim_mm,mrks_pos,ID) # Apply spatial calibration
-
-	np.save('data_%i'%ID, relative_disp_mm) # Save numpy array of displacement
+	# Path of the video to analyze
+	path = file_explorer() 
+	# Obtain matrix and frame rate information
+	video, fps = load_video(path) 
+	# Detection parameters
+	mrks_pos, sample_frame, id_detected = arUCO_video_detection(video, adv_param=True, binarization=True, thresh=120, dilate=True) 
+	# Marker ID to look for in the analyzed video
+	ID = 1 
+	# Marker phisical length [mm]
+        dim_mm = 15 
+	# Apply spatial calibration
+	relative_disp_mm, global_center_px, len_pixel = spatial_calibration(dim_mm,mrks_pos,ID) 
+	# Save numpy array of displacement
+	np.save('data_%i'%ID, relative_disp_mm) 
 
 	plot_disp(relative_disp_mm, fps, ID)
-
 	plt.show()
     
 
